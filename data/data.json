@@ -1,0 +1,62 @@
+[
+  {
+    "name": "petbook",
+    "image": "petbook/petbook1.png",
+    "images": ["petbook/petbook1.png", "petbook/petbook1.png"],
+    "description": "social media for pets",
+    "icons": ["fab fa-react", "fas fa-fire", "fab fa-node"],
+    "info": "Users can create, like and comment on posts. Users also receive notifications about activity in their profile.",
+    "link": [
+      {
+        "type": "fas fa-globe",
+        "url": "http://google.com",
+        "message": "Visit website"
+      },
+      {
+        "type": "fas fa-code",
+        "url": "http://github.com",
+        "message": "Source code"
+      }
+    ]
+  },
+  {
+    "name": "shop-app",
+    "image": "petbook/petbook1.png",
+    "images": ["petbook/petbook1.png", "petbook/petbook1.png"],
+    "description": "mobile e-commerce platform",
+    "icons": ["fab fa-react", "fas fa-fire", "fab fa-node"],
+    "info": "Users can add items they want to sell to their profile and browse all the available items in the app.",
+    "link": [
+      {
+        "type": "fas fa-video",
+        "url": "http://google.com",
+        "message": "Watch demo"
+      },
+      {
+        "type": "fas fa-code",
+        "url": "http://github.com",
+        "message": "Source code"
+      }
+    ]
+  },
+  {
+    "name": "android-chat",
+    "image": "petbook/petbook1.png",
+    "images": ["petbook/petbook1.png", "petbook/petbook1.png"],
+    "description": "Android group chat app",
+    "icons": ["fab fa-android", "fas fa-fire"],
+    "info": "User can chat either anonymously or with an account, where the user can pick a profile photo and username.",
+    "links": [
+      {
+        "type": "fa-solid fa-video",
+        "url": "http://google.com",
+        "message": "Watch demo"
+      },
+      {
+        "type": "fas fa-code",
+        "url": "http://github.com",
+        "message": "Source code"
+      }
+    ]
+  }
+]

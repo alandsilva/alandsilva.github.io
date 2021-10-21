@@ -29,7 +29,25 @@
   <body>
     <header>
       <div class="logo">
-        <img src="img/logo.png" alt="" />
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com/alandsilva"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li class="social-list__item">
+            <a
+              class="social-list__link"
+              href="https://www.linkedin.com/in/alan-da-silva-472854161/"
+              ><i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="mailto:dasilva.alan@outlook.com"
+              ><i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
       </div>
       <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
@@ -52,10 +70,12 @@
 
     <!-- Introduction -->
     <section class="intro" id="home">
-      <h1 class="section__title section__title--intro">
+      <h2 class="section__title section__title--intro">
         Hi, I am <strong> Alan Da Silva</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--intro">software dev</p>
+      </h2>
+      <p class="section__subtitle section__subtitle--intro">
+        software developer
+      </p>
       <img
         class="intro__img"
         src="img/alan.JPG"
@@ -68,18 +88,16 @@
       <h2 class="section__title section__title--skills">What I do</h2>
       <div class="skills">
         <div class="skill">
-          <h3>Full Stack Web Development</h3>
+          <h3>Full Stack Web Applications</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quo ut
-            soluta omnis, amet autem nam impedit iure dicta animi? Dolor
-            possimus perspiciatis, autem adipisci voluptate dolores accusamus
-            dignissimos vero.
+            I am able to develop full stack applications using React and
+            Firebase.
           </p>
         </div>
         <!-- /skill -->
 
         <div class="skill">
-          <h3>React Native Development</h3>
+          <h3>React Native Applications</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi rem,
             dignissimos numquam, illo iure ipsa a dolore, molestiae beatae
@@ -87,18 +105,6 @@
             assumenda?
           </p>
         </div>
-        <!-- /skill -->
-
-        <div class="skill">
-          <h3>Android Development</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
-            autem eum obcaecati blanditiis velit ex optio omnis pariatur est
-            assumenda veritatis praesentium, labore error earum reprehenderit
-            quos sint perferendis. Impedit.
-          </p>
-        </div>
-        <!-- /skill -->
       </div>
       <!-- /skills -->
 
@@ -114,16 +120,9 @@
 
       <div class="about-me__body">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-          debitis veniam aliquam, delectus rem enim qui repellat consectetur,
-          libero quisquam voluptatibus. Non sunt similique consequatur, dolore
-          eum maxime corrupti voluptatum.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis qui
-          voluptatum provident dolorum delectus! Et perspiciatis repellat atque
-          impedit optio esse voluptatem cumque, numquam, totam incidunt odit,
-          error quod in!
+          I'm currently a 3rd yeard student at Oulu University of Applied
+          Sciences. My studies are mainly focused in web and mobile full stack
+          development.
         </p>
       </div>
 
@@ -141,43 +140,17 @@
         A few school and personal projects
       </p>
 
-      <div class="portfolio">
-        <!-- Portfolio item 1-->
-        <a href="#" class="portfolio__item">
-          <img src="img/computer.jpg" alt="" class="portfolio__img" />
-        </a>
-        <!-- Portfolio item 1-->
-        <a href="#" class="portfolio__item">
-          <img src="img/computer.jpg" alt="" class="portfolio__img" />
-        </a>
-        <!-- Portfolio item 1-->
-        <a href="#" class="portfolio__item">
-          <img src="img/computer.jpg" alt="" class="portfolio__img" />
-        </a>
-        <!-- Portfolio item 1-->
-        <a href="#" class="portfolio__item">
-          <img src="img/computer.jpg" alt="" class="portfolio__img" />
-        </a>
-      </div>
+      <div id="portfolio" class="portfolio"></div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-      <a href="mailto:dasilva.alan@outlook.com" class="footer__link"
-        >dasilva.alan@outlook.com</a
-      >
-      <ul class="social-list">
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://github.com"
-            ><i class="fab fa-github"></i
-          ></a>
-        </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://linkedin.com"
-            ><i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-      </ul>
+      <p>Made with <i class="fas fa-heart"></i></p>
+      <a
+        href="https://github.com/alandsilva/alandsilva.github.io"
+        class="footer__link"
+        ><i class="fas fa-code"></i>Source code
+      </a>
     </footer>
 
     <script src="js/index.js"></script>
