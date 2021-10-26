@@ -18,6 +18,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -69,24 +70,51 @@
     </header>
 
     <!-- Introduction -->
-    <section class="intro">
-      <h1 id="title" class="section__title section__title--intro">
-        The title <strong> of my project</strong>
-      </h1>
-      <p id="description" class="section__subtitle section__subtitle--intro">
-        a few details
-      </p>
-      <img
-        id="img"
-        class="intro__img"
-        src="img/computer.jpg"
-        alt="Porfolio item picture"
-      />
-    </section>
 
-    <div id="portfolio-item__info" class="portfolio-item-individual">
-      <div class="portfolio-item__links"></div>
-      <img src="img/computer.jpg" alt="" />
+    <div class="parallax">
+      <section class="intro">
+        <h1 id="title" class="section__title section__title--intro">
+          The title <strong> of my project</strong>
+        </h1>
+        <p id="description" class="section__subtitle section__subtitle--intro">
+          a few details
+        </p>
+        <img
+          id="img"
+          class="intro__img"
+          src="img/computer.jpg"
+          alt="Porfolio item picture"
+        />
+      </section>
+      <div class="parallax__group">
+        <div class="parallax__layer parallax__layer--back">
+          <div class="box left"><img src="img/computer.jpg" alt="" /></div>
+        </div>
+        <div class="parallax__layer parallax__layer--base">
+          <div class="box right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sed,
+            iste placeat consequuntur necessitatibus eius voluptate, iure sequi
+            ipsam, nulla autem. Laboriosam, eaque modi necessitatibus dolorum
+            non fugiat atque pariatur.
+          </div>
+        </div>
+      </div>
+      <div class="parallax__group">
+        <div class="parallax__layer parallax__layer--back">
+          <div class="box right"><img src="img/computer.jpg" alt="" /></div>
+        </div>
+        <div class="parallax__layer parallax__layer--base">
+          <div class="box left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sed,
+            iste placeat consequuntur necessitatibus eius voluptate, iure sequi
+            ipsam, nulla autem. Laboriosam, eaque modi necessitatibus dolorum
+            non fugiat atque pariatur.
+          </div>
+        </div>
+      </div>
+      <div id="portfolio-item__info" class="portfolio-item-individual">
+        <div class="portfolio-item__links"></div>
+      </div>
     </div>
 
     <!-- Footer -->

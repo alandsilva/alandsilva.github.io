@@ -2,7 +2,16 @@
   {
     "name": "petbook",
     "image": "petbook/petbook1.png",
-    "images": ["petbook/petbook1.png", "petbook/petbook1.png"],
+    "images": [
+      {
+        "image": "petbook/petbook1.png",
+        "description": "Create a Profile for your pet"
+      },
+      {
+        "image": "petbook/petbook1.png",
+        "description": "Share what your pet is up to!"
+      }
+    ],
     "description": "social media for pets",
     "icons": ["fab fa-react", "fas fa-fire", "fab fa-node"],
     "info": "Users can create, like and comment on posts. Users also receive notifications about activity in their profile.",
