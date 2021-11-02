@@ -4,12 +4,16 @@
     "image": "petbook/petbook1.png",
     "images": [
       {
-        "image": "petbook/petbook1.png",
-        "description": "Create a Profile for your pet"
+        "image": "petbook/petbook2.png",
+        "description": "Share your pets thoughts in the furry world"
       },
       {
-        "image": "petbook/petbook1.png",
-        "description": "Share what your pet is up to!"
+        "image": "petbook/petbook3.png",
+        "description": "Interact and react to other pets' posts"
+      },
+      {
+        "image": "petbook/petbook4.png",
+        "description": "Personalize your pet's profile"
       }
     ],
     "description": "social media for pets",
@@ -18,52 +22,90 @@
     "link": [
       {
         "type": "fas fa-globe",
-        "url": "http://google.com",
+        "url": "https://petbook-cb3c1.web.app",
         "message": "Visit website"
       },
       {
         "type": "fas fa-code",
-        "url": "http://github.com",
+        "url": "https://github.com/alandsilva/petbook",
         "message": "Source code"
       }
     ]
   },
   {
-    "name": "shop-app",
-    "image": "petbook/petbook1.png",
-    "images": ["petbook/petbook1.png", "petbook/petbook1.png"],
-    "description": "mobile e-commerce platform",
+    "name": "shopapp",
+    "image": "shopapp/shopapp1.jpeg",
+    "images": [
+      {
+        "image": "shopapp/shopapp2.jpeg",
+        "description": "Browse and order by price, location, etc"
+      },
+      {
+        "image": "shopapp/shopapp3.jpeg",
+        "description": "Manage a personal profile"
+      },
+      {
+        "image": "shopapp/shopapp4.jpeg",
+        "description": "Add items you would like to sell"
+      },
+      {
+        "image": "shopapp/shopapp5.jpeg",
+        "description": "Manage your own items"
+      },
+      {
+        "image": "shopapp/shopapp6.jpeg",
+        "description": "View item details and add to cart"
+      },
+      {
+        "image": "shopapp/shopapp7.jpeg",
+        "description": "See the cart details and total amount"
+      }
+    ],
+    "description": "Shopp app for mobile devices",
     "icons": ["fab fa-react", "fas fa-fire", "fab fa-node"],
-    "info": "Users can add items they want to sell to their profile and browse all the available items in the app.",
+    "info": "Users can create, like and comment on posts. Users also receive notifications about activity in their profile.",
     "link": [
       {
-        "type": "fas fa-video",
-        "url": "http://google.com",
-        "message": "Watch demo"
+        "type": "fab fa-youtube",
+        "url": "https://www.youtube.com/watch?v=UAFbeobAuI0&ab_channel=AlanDaSilva",
+        "message": "Demo Video"
+      },
+      {
+        "type": "fas fa-database",
+        "url": "https://dasilvaworkspace.stoplight.io/docs/webinterfaces2021/reference/shopAPI.v1.yaml",
+        "message": "API"
       },
       {
         "type": "fas fa-code",
-        "url": "http://github.com",
+        "url": "https://github.com/alandsilva/rn-shop-app",
         "message": "Source code"
       }
     ]
   },
   {
-    "name": "android-chat",
-    "image": "petbook/petbook1.png",
-    "images": ["petbook/petbook1.png", "petbook/petbook1.png"],
-    "description": "Android group chat app",
-    "icons": ["fab fa-android", "fas fa-fire"],
-    "info": "User can chat either anonymously or with an account, where the user can pick a profile photo and username.",
-    "links": [
+    "name": "androidchat",
+    "image": "androidchat/androidchat1.png",
+    "images": [
       {
-        "type": "fa-solid fa-video",
-        "url": "http://google.com",
-        "message": "Watch demo"
+        "image": "androidchat/androidchat2.png",
+        "description": "Browse and join a selection of group chats"
       },
       {
+        "image": "androidchat/androidchat3.png",
+        "description": "Create chat groups of your favorite topics"
+      },
+      {
+        "image": "androidchat/androidchat4.png",
+        "description": "Be a part of the conversation"
+      }
+    ],
+    "description": "group chat for android",
+    "icons": ["fab fa-react", "fas fa-fire", "fab fa-node"],
+    "info": "Users can create, like and comment on posts. Users also receive notifications about activity in their profile.",
+    "link": [
+      {
         "type": "fas fa-code",
-        "url": "http://github.com",
+        "url": "https://github.com/alandsilva/android-chats",
         "message": "Source code"
       }
     ]

@@ -30,18 +30,9 @@ const getPortfolioItem = (item, index) => {
     index +
     '" class="portfolio__item"><img src="img/' +
     item.image +
-    '" alt="" class="portfolio__img" /> <div class="portfolio__info"><h3 class="portfolio__name">' +
+    '" alt="" class="portfolio__img" /> <div class="portfolio__info"><h2 class="portfolio__name">' +
     item.name +
-    '</h3><div class="portfolio__icons">' +
-    getIcons(item.icons) +
+    '</h2><div class="portfolio__icons">' +
     '</div></div></a>'
   );
-};
-
-const getIcons = (icon_names) => {
-  let result = '';
-  icon_names.forEach((name) => {
-    result += '<i class="' + name + '"></i>';
-  });
-  return result;
 };
