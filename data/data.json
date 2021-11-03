@@ -17,7 +17,7 @@
       }
     ],
     "description": "social media for pets",
-    "icons": ["fab fa-react", "fas fa-fire", "fab fa-node"],
+    "stack": ["React", "Node.js", "Firebase"],
     "info": "Users can create, like and comment on posts. Users also receive notifications about activity in their profile.",
     "link": [
       {
@@ -62,7 +62,7 @@
       }
     ],
     "description": "Shopp app for mobile devices",
-    "icons": ["fab fa-react", "fas fa-fire", "fab fa-node"],
+    "stack": ["React Native", "Node.js", "MongoDB"],
     "info": "Users can create, like and comment on posts. Users also receive notifications about activity in their profile.",
     "link": [
       {
@@ -100,7 +100,7 @@
       }
     ],
     "description": "group chat for android",
-    "icons": ["fab fa-react", "fas fa-fire", "fab fa-node"],
+    "stack": ["Kotlin", "Firebase"],
     "info": "Users can create, like and comment on posts. Users also receive notifications about activity in their profile.",
     "link": [
       {

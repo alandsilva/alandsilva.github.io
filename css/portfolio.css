@@ -1,53 +1,32 @@
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
+.stack {
+  text-align: center;
 }
 
-.parallax__group {
-  position: relative;
-  height: 100vh;
-  transform-style: preserve-3d;
-}
-
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.parallax__layer--base {
-  transform: translateZ(0);
-}
-.parallax__layer--back {
-  transform: translateZ(-1px) scale(2);
-}
-
-.box {
-  position: absolute;
-  top: 50%;
-  width: 45%;
-  height: 50%;
-  transform: translateY(-50%);
+.details-item {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  gap: 1rem;
 }
 
-.left {
-  left: 5%;
+.item {
+  max-width: 50%;
+  max-height: 50vh;
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-bold);
+  color: var(--clr-accent);
 }
 
-.right {
-  right: 5%;
+.first {
+  order: 0;
+}
+.last {
+  order: 1;
 }
 
-.left img,
-.right img {
-  max-width: 100%;
-  max-height: 100%;
+.item img {
+  max-height: 50vh;
 }
 
 .portfolio-item__links {

@@ -15,7 +15,8 @@ fetch('../data/data.json')
       item.link
     );
 
-    document.querySelector('.parallax').innerHTML += getImages(item.images);
+    document.querySelector('.details').innerHTML += getImages(item.images);
+    document.querySelector('.stack').innerHTML += getStack(item.stack);
   })
   .catch((error) => console.log(error));
 
@@ -34,21 +35,30 @@ const getLinks = (links) => {
   return result;
 };
 
+const getStack = (stack) => {
+  let result = '';
+  stack.forEach((item) => {
+    result += ' -' + item + '- ';
+  });
+
+  return result;
+};
+
 const getImages = (images) => {
   let result = '';
   images.forEach((image, index) => {
-    let pos1 = index % 2 == 0 ? 'left' : 'right';
-    let pos2 = index % 2 == 0 ? 'right' : 'left';
+    let pos1 = index % 2 == 0 ? 'first' : 'last';
+    let pos2 = index % 2 == 0 ? 'last' : 'first';
     const newImage =
-      '<div class="parallax__group"><div class="parallax__layer parallax__layer--back"><div class="box ' +
+      '<div class="details-item"><div class="item ' +
       pos1 +
       '"><img src="img/' +
       image.image +
-      '" alt="" /></div></div><div class="parallax__layer parallax__layer--base"><div class="box ' +
+      '" alt="detail image" /></div><div class="item ' +
       pos2 +
       '">' +
       image.description +
-      '</div></div></div>';
+      '</div></div>';
     result += newImage;
   });
   return result;
