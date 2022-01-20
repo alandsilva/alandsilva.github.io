@@ -1,16 +1,25 @@
-import Header from './components/Header'
-import Introduction from './components/Introduction'
-import Skills from './components/Skills'
-import Portfolio from './components/Portfolio'
+import {
+  Routes,
+  Route
+} from "react-router-dom";
+import Header from "./components/Header";
+import HomePage from './pages/HomePage';
+import ProjectPage from './pages/ProjectPage';
+
+import './App.css'
 
 function App() {
   return (
-    <div>
+    <div className='layout'>
       <Header/>
-      <Introduction/>
-      <Skills/>
-      <Portfolio/>
+    <div className='page'>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path=":projectName" element={<ProjectPage />} />
+    </Routes>
     </div>
+    </div>
+  
   );
 }
 

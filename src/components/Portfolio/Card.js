@@ -1,8 +1,10 @@
 import React from 'react';
 import './Card.css';
 
+import { Link } from "react-router-dom";
+
 const Card = (props) => {
-  return <div onClick={() => {console.log('clicked')}} className="card">
+  return <Link to={`/${props.title}`}  className="card">
       <img className="card__img" src={require(`../../img/${props.img}`)} alt={props.img}/>
       <div className="card__body">
           <h3 className="card__title">{props.title}</h3>
@@ -12,7 +14,7 @@ const Card = (props) => {
           </p>
       </div>
 
-  </div>;
+  </Link>;
 };
 
 export default Card;

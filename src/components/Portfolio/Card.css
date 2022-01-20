@@ -4,6 +4,8 @@
     min-width: 28rem;
     display: flex;
     transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+    text-decoration: none;
+    color: inherit;
 }
 
 .card__img {

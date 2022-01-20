@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
-import './Header.css'
+import './Header.css';
+
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 const Header = () => {
@@ -11,7 +13,7 @@ const Header = () => {
         
     }
   return <header className={show}>
-  <div className="logo">
+  {/* <div className="logo">
     <ul className="social-list">
       <li className="social-list__item">
         <a
@@ -38,21 +40,21 @@ const Header = () => {
         </a>
       </li>
     </ul>
-  </div>
+  </div> */}
   <button className="nav-toggle" aria-label="toggle navigation" onClick={toggle}>
     <span className="hamburger"></span>
   </button>
   <nav className='nav'>
     <ul className="nav__list">
-      <li className="nav__item"><a href="#home" className="nav__link">Home</a></li>
+      <li className="nav__item"><Link to="/#home"className="nav__link">Home</Link></li>
       <li className="nav__item">
-        <a href="#skills" className="nav__link">My skills</a>
+      <Link to="/#skills"className="nav__link">Skills</Link>
       </li>
       <li className="nav__item">
-        <a href="#about" className="nav__link">About me</a>
+      <Link to="/#work"className="nav__link">Projects</Link>
       </li>
       <li className="nav__item">
-        <a href="#work" className="nav__link">Projects</a>
+      <Link to="/#about"className="nav__link">Contact me</Link>
       </li>
     </ul>
   </nav>
