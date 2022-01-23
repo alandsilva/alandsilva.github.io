@@ -1,0 +1,35 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.img__description {
+  font-size: 0.1rem;
+  margin-top: 0.1rem;
+}
+
+.intro__links {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro__links a {
+  margin-top: 1rem;
+  color: var(--clr-accent);
+}
+
+@media (min-width: 600px) {
+  .intro__img {
+    max-width: 50%;
+  }
+
+  .intro {
+    flex-direction: row;
+    margin: 4rem;
+  }
+
+  .intro__text {
+    margin-top: 4rem;
+    margin-left: 2rem;
+  }
+}

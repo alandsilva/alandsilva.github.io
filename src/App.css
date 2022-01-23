@@ -1,16 +1,5 @@
 .layout {
-  display: flex;
-  flex-direction: column;
-}
-
-
-@media (min-width: 600px) {
-  .layout {
-    flex-direction: row;
-  }
-
-  .page {
-    width: 80vw;
-    transform: translateX(20vw)
-  }
+  margin: auto;
+  padding: 1rem;
+  max-width: 80%;
 }

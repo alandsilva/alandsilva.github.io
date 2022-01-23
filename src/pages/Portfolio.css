@@ -1,0 +1,13 @@
+.portfolio {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  justify-content: space-around;
+}
+
+@media (min-width: 600px) {
+  .portfolio {
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 20rem));
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
