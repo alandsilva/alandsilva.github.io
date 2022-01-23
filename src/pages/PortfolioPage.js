@@ -1,24 +1,20 @@
 import React from 'react';
-import './Portfolio.css';
 import data from '../data.json';
-
-import Card from '../components/Card';
 
 const Portfolio = () => {
   return (
     <div>
-      <p>A few school and personal projects</p>
+      this is the portfolio page
+      {/* <p>Click to view Details</p>
       <div id='portfolio' className='portfolio'>
         {data.map((item) => (
-          <Card
-            key={item.name}
-            title={item.name}
-            img={item.image}
-            description={item.description}
-            stack={item.stack}
-          />
+          <div className='portfolio__item'>
+            <a href={`/${item.name}`}>
+              <img src={require(`../img/${item.image}`)} alt='' />
+            </a>
+          </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
