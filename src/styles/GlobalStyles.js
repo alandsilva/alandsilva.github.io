@@ -37,6 +37,7 @@ const GlobalStyles = createGlobalStyle`
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
+    margin-top: 10%;
   }
 /* Smooth Scroll  */
   [data-scrollbar] {
