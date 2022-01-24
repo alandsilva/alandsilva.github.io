@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import AboutInfoItem from '../components/AboutInfoItem';
 import Button from '../components/Button';
 import PText from '../components/PText';
-import image from '../img/alan.JPG';
+import image from '../assets/img/alan.JPG';
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
