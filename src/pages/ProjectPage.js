@@ -85,7 +85,7 @@ const ProjectPage = () => {
             {project.images.map((image) => {
               return (
                 <SwiperSlide>
-                  <img src={require(`../assets/img/${image}`)} />
+                  <img src={require(`../assets/img/${image}`)} alt={image} />
                 </SwiperSlide>
               );
             })}
