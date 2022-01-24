@@ -132,6 +132,17 @@ const Header = () => {
             Work
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            className='menu__item'
+            to='/contact'
+            onClick={() => {
+              toggle();
+            }}
+          >
+            Contact
+          </NavLink>
+        </li>
       </ul>
       {/* <span className='nav__container'>
         <button

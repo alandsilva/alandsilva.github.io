@@ -21,10 +21,12 @@ const ButtonStyle = styled.div`
   }
 `;
 
-const Button = ({ outline, children }) => {
+const Button = ({ outline, children, href }) => {
   return (
     <ButtonStyle outline={outline}>
-      <button className='button'>{children}</button>
+      <a href={href} className='button'>
+        {children}
+      </a>
     </ButtonStyle>
   );
 };

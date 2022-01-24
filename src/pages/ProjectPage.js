@@ -27,7 +27,7 @@ const ProjectPage = () => {
           <div className={`project__item ${img.type}`} key={img.image}>
             <img
               className='project__img'
-              src={require(`../img/${img.image}`)}
+              src={require(`../assets/img/${img.image}`)}
               alt={img.image}
             />
           </div>
@@ -36,12 +36,6 @@ const ProjectPage = () => {
       </div>
     </div>
   );
-};
-
-const getSize = () => {
-  const sizes = ['medium', 'large', 'tall', 'wide'];
-  const randomInt = Math.floor(Math.random() * sizes.length);
-  return sizes[randomInt];
 };
 
 export default ProjectPage;

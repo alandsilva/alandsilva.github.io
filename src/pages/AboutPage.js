@@ -100,7 +100,7 @@ const About = () => {
                 <br />
               </PText>
             </div>
-            <Button>Download CV</Button>
+            <Button href='/Resume.pdf'>Download CV</Button>
           </div>
           <div className='right'>
             <img src={image} alt='Alan' />
