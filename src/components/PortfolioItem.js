@@ -26,7 +26,6 @@ const PortfolioItemStyles = styled.div`
   }
   .portfolioItem__desc {
     font-size: 1.8rem;
-    font-family: 'RobotoMono Regular';
     margin-top: 1rem;
   }
 
