@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Header.css';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import { MdMenu, MdClose } from 'react-icons/md';
@@ -119,18 +118,18 @@ const Header = () => {
               toggle();
             }}
           >
-            Work
+            About
           </NavLink>
         </li>
         <li>
           <NavLink
             className='menu__item'
-            to='/info'
+            to='/portfolio'
             onClick={() => {
               toggle();
             }}
           >
-            Info
+            Work
           </NavLink>
         </li>
       </ul>
