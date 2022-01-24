@@ -2,74 +2,45 @@
     {
       "name": "petbook",
       "image": "petbook/petbook1.png",
-      "images": [
-        {
-          "image": "petbook/petbook1.png",
-          "type": "tall"
-        },
-        {
-          "image": "petbook/petbook2.png",
-          "type": "medium"
-        },
-        {
-          "image": "petbook/petbook3.png",
-          "type": "tall"
-        },
-        {
-          "image": "petbook/petbook4.png",
-          "type": "medium"
-        }
-      ],
+      "images": [ "petbook/petbook1.png", "petbook/petbook2.png", "petbook/petbook3.png", "petbook/petbook4.png"],
       "description": "social media for pets",
       "stack": ["React", "Node.js", "Firebase"],
       "info": "Users can create, like and comment on posts. Users also receive notifications about activity in their profile.",
       "links": [
         {
           "url": "https://petbook-cb3c1.web.app",
-          "message": "Visit website"
+          "message": "Website",
+          "type": "website"
         },
         {
           "url": "https://github.com/alandsilva/petbook",
-          "message": "Source code"
+          "message": "Source",
+          "type": "code"
         }
       ]
     },
     {
       "name": "shopapp",
       "image": "shopapp/shopapp1.jpeg",
-      "images": [
-        {
-          "image": "shopapp/shopapp1.jpeg",
-          "type": "medium"
-        },
-        {
-          "image": "shopapp/shopapp2.jpeg",
-          "type": "medium"
-        },
-        {
-          "image": "shopapp/shopapp3.jpeg",
-          "type": "medium"
-        },
-        {
-          "image": "shopapp/shopapp4.jpeg",
-          "type": "medium"
-        }
-      ],
+      "images": ["shopapp/shopapp1.jpeg", "shopapp/shopapp2.jpeg", "shopapp/shopapp3.jpeg", "shopapp/shopapp4.jpeg"],
       "description": "Shopp app for mobile devices",
       "stack": ["React Native", "Node.js", "MongoDB"],
       "info": "Users can create, like and comment on posts. Users also receive notifications about activity in their profile.",
       "links": [
         {
           "url": "https://www.youtube.com/watch?v=UAFbeobAuI0&ab_channel=AlanDaSilva",
-          "message": "Video Demo"
+          "message": "Demo",
+          "type": "video"
         },
         {
           "url": "https://dasilvaworkspace.stoplight.io/docs/webinterfaces2021/reference/shopAPI.v1.yaml",
-          "message": "Interactive OpenAPI"
+          "message": "OpenAPI",
+          "type": "website"
         },
         {
           "url": "https://github.com/alandsilva/rn-shop-app",
-          "message": "Source code"
+          "message": "Source",
+          "type": "code"
         }
       ]
     },

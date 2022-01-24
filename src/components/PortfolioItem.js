@@ -39,11 +39,11 @@ const PortfolioItemStyles = styled.div`
 const PortfolioItem = ({ item }) => {
   return (
     <PortfolioItemStyles>
-      <Link to='/' className='portfolioItem__img'>
+      <Link to={`/portfolio/${item.name}`} className='portfolioItem__img'>
         <img src={require(`../assets/img/${item.image}`)} alt={item.name} />
       </Link>
       <div className='portfolioItem__info'>
-        <Link to='/'>
+        <Link to={`/portfolio/${item.name}`}>
           <h3 className='portfolioItem__title'>{item.name}</h3>
         </Link>
         <p className='portfolioItem__desc'>{item.description}</p>
