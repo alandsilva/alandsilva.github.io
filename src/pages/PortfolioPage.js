@@ -13,6 +13,7 @@ SwiperCore.use([Navigation]);
 const PortfolioStyles = styled.div`
   padding: 10rem 0;
   .portfolio__allItems {
+    min-width: 400px;
     display: flex;
     gap: 3rem;
     margin-top: 5rem;
@@ -41,6 +42,9 @@ const PortfolioStyles = styled.div`
   .swiper-button-prev::after,
   .swiper-button-next::after {
     font-size: 2rem;
+  }
+  .swiper-slide {
+    min-width: 300px;
   }
 
   @media only screen and (max-width: 768px) {

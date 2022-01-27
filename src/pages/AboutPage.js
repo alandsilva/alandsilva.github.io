@@ -87,16 +87,11 @@ const About = () => {
             <h2 className='about__heading'>IT student</h2>
             <div className='about__info'>
               <PText>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Exercitationem eius amet quisquam veritatis voluptatibus modi
-                alias, neque optio aspernatur temporibus molestias, hic non
-                voluptate, ipsa odit dolore.
+                Hi. I’m Alan and I’m a 3rd year IT (BEng) student at the Oulu
+                University of Applied Sciences.
                 <br />
                 <br />
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Exercitationem eius amet quisquam veritatis voluptatibus modi
-                alias, neque optio aspernatur temporibus molestias, hic non
-                voluptate, ipsa odit dolore.
+                I have experience in fullstack web development.
                 <br />
               </PText>
             </div>
@@ -110,7 +105,7 @@ const About = () => {
           <div className='about-info__item'>
             <h1 className='about-info__heading'>education</h1>
             <AboutInfoItem
-              title='University'
+              title='University (2019 - )'
               items={['Oulu University of Applied Sciences']}
             />
           </div>

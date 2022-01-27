@@ -3,7 +3,7 @@ import { MdPlace } from 'react-icons/md';
 import styled from 'styled-components';
 import PText from './PText';
 
-const ItemStyle = styled.div`
+const ItemStyle = styled.a`
   padding: 2rem;
   background-color: var(--deep-dark);
   display: flex;
@@ -24,15 +24,12 @@ const ItemStyle = styled.div`
   }
 `;
 
-const ContactInfoItem = ({
-  icon = <MdPlace></MdPlace>,
-  text = 'This is info',
-}) => {
+const ContactInfoItem = ({ icon = <MdPlace></MdPlace>, children, href }) => {
   return (
-    <ItemStyle>
+    <ItemStyle href={href}>
       <div className='icon'>{icon}</div>
       <div className='info'>
-        <PText>{text}</PText>
+        <PText>{children}</PText>
       </div>
     </ItemStyle>
   );

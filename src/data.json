@@ -43,44 +43,5 @@
           "type": "code"
         }
       ]
-    },
-    {
-      "name": "shopapp",
-      "image": "shopapp/shopapp1.jpeg",
-      "images": [
-        {
-          "image": "shopapp/shopapp1.jpeg",
-          "type": "medium"
-        },
-        {
-          "image": "shopapp/shopapp2.jpeg",
-          "type": "medium"
-        },
-        {
-          "image": "shopapp/shopapp3.jpeg",
-          "type": "medium"
-        },
-        {
-          "image": "shopapp/shopapp4.jpeg",
-          "type": "medium"
-        }
-      ],
-      "description": "Shopp app for mobile devices",
-      "stack": ["React Native", "Node.js", "MongoDB"],
-      "info": "Users can create, like and comment on posts. Users also receive notifications about activity in their profile.",
-      "links": [
-        {
-          "url": "https://www.youtube.com/watch?v=UAFbeobAuI0&ab_channel=AlanDaSilva",
-          "message": "Video Demo"
-        },
-        {
-          "url": "https://dasilvaworkspace.stoplight.io/docs/webinterfaces2021/reference/shopAPI.v1.yaml",
-          "message": "Interactive OpenAPI"
-        },
-        {
-          "url": "https://github.com/alandsilva/rn-shop-app",
-          "message": "Source code"
-        }
-      ]
     }
   ]
